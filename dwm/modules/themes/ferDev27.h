@@ -29,5 +29,7 @@ static const char col_tag7[]         = "#F8C63D";
 static const char col_tag8[]         = "#9BBC59"; 
 static const char col_tag9[]         = "#7e4dcc"; 
 
-//  Tags                     Firefox   Dev    Term     VMs     Git    Docker  Files   Media    Misc   
-static const char *tags[] = { "   ", " {} ", "   ", " 󰠥  ", " 󰊢  ", " 󰡨  ", "   ", " 󰋩  ", " 󰌨  " };
+////  Tags                     Firefox   Dev    Term     VMs     Git    Docker  Files   Media    Misc   
+//static const char *tags[] = { "   ", " {} ", "   ", " 󰠥  ", " 󰊢  ", " 󰡨  ", "   ", " 󰋩  ", " 󰌨  " };
+//  Tags                     Firefox   Dev    Term     Git    Files   VMs     Docker  Media    Misc   
+static const char *tags[] = { "   ", " {} ", "   ", " 󰊢  ", "   ", " 󰠥  ", " 󰡨  ",  " 󰋩  ", " 󰌨  " };

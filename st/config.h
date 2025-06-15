@@ -25,7 +25,8 @@ GitHub: https://github.com/ferDev27
 
 //static char *font = "UbuntuMono Nerd Font:size=13:weight=regular:antialias=true:autohint=true";
 //static char *font = "mononoki Nerd Font:size=11.5:weight=regular:antialias=true:autohint=true";
-static char *font = "IBM Plex Mono:size=11.5:weight=regular:antialias=true:autohint=true";
+static char *font = "Fira Code:size=11.5:weight=regular:antialias=true:autohint=true";
+ 
 //static char *font = "Hack Nerd Font:size=11:weight=regular:antialias=true:autohint=true";
 //static char *font = "JetBrainsMono Nerd Font:size=11:weight=regular:antialias=true:autohint=true";
 //static char *font = "InconsolataGo Nerd Font:size=13:weight=regular:antialias=true:autohint=true";

@@ -1,7 +1,8 @@
 //  Ultra ferDev27
 
 //Bar
-static const char col_barbg[]		= "#080214";
+// static const char col_barbg[]		= "#080214";
+static const char col_barbg[]		= "#7887F5";
 
 //Tag square bg
 static const char col_tagbg[]		= "#10111c";  

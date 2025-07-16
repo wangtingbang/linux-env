@@ -1,5 +1,6 @@
 // Main software 
-const char MY_TERMINAL[] = "st";
+//const char MY_TERMINAL[] = "st";
+const char MY_TERMINAL[] = "warp-terminal";
 //const char MY_MENU[] = "dmenu_run -l 15 -c -p '󰌧 '";
 const char MY_MENU[] = "dmenu_run -l 5 -b -p '󰌧 '";
 const char MY_BROWSER[] = "firefox";

@@ -21,7 +21,7 @@ static const int horizpadbar        = 0;    /* horizontal padding for statusbar 
 static const int vertpadbar         = 12;   /* vertical padding for statusbar */
 
 // Font
-static const char *fonts[]          = { "UbuntuMono Nerd Font:size=14:weight=bold:antialias=true:autohint=true" };
+static const char *fonts[]          = { "UbuntuMono Nerd Font:size=12:weight=bold:antialias=true:autohint=true" };
 
 static const char *colors[][3]      = {
   /*               fg         bg         border   */

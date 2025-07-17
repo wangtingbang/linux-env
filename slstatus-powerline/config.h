@@ -66,13 +66,13 @@ static const struct arg args[] = {
 
     // { battery_perc,     "<\x03 %60s", "BAT0" },
 	//{ run_command, 		"  %s",   			"uname -r" }, // linux 内核版本
-	{ run_command, 		" ",   			NULL }, // linux 内核版本
+	{ run_command, 		" \x01\x01",   			NULL }, // linux 内核版本
 	// { username, 		"  %s", 			NULL }, // 当前系统用户
-	{ netspeed_rx,     "|\x01 %s",  "wlan0" },
-	{ netspeed_tx,     "|\x01 %s",  "wlan0" },
-    { uptime,          "|\x02 %s",  NULL },
-    { cpu_perc,	   "|\x05﬙ %2s%%",  NULL },
-	{ ram_used,        "|\x06  %s",  NULL },
-	{ datetime,        "|\x08  %s",   "%a %b %d - %R" },
+	{ netspeed_rx,     "\x01|\x01 %s",  "wlan0" },
+	{ netspeed_tx,     "\x01|\x01 %s",  "wlan0" },
+    { uptime,          "\x01|\x02 %s",  NULL },
+    { cpu_perc,	   "\x01|\x05﬙ %2s%%",  NULL },
+	{ ram_used,        "\x01|\x06  %s",  NULL },
+	{ datetime,        "\x01|\x08  %s",   "%a %b %d - %R" },
 	{ username, 		"| %s", 			NULL }, // 当前系统用户
 };

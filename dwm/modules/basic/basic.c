@@ -21,7 +21,7 @@ static const int horizpadbar        = 0;    /* horizontal padding for statusbar 
 static const int vertpadbar         = 12;   /* vertical padding for statusbar */
 
 // Font
-static const char *fonts[]          = { "UbuntuMono Nerd Font:size=12:weight=bold:antialias=true:autohint=true" };
+static const char *fonts[]          = { "UbuntuMono Nerd Font:size=12:weight=ragular:antialias=true:autohint=true" };
 
 static const char *colors[][3]      = {
   /*               fg         bg         border   */
@@ -66,4 +66,3 @@ static const unsigned int ulinepad	    = 0;	/* horizontal padding between the un
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
 static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
 static const int ulineall 		        = 0;	/* 1 to show underline on all tags, 0 for just the active ones */
-
